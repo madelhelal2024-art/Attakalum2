@@ -37,10 +37,23 @@
   document.querySelectorAll('[data-whatsapp]').forEach(link => {
     link.href = whatsapp + encodeURIComponent('مرحبًا، ' + link.dataset.whatsapp + '، أرجو إرسال التفاصيل.');
   });
-  document.querySelectorAll('[data-level]').forEach(link => link.addEventListener('click', () => {
-    const label = document.querySelector('#contact-title');
-    if (label) label.setAttribute('data-selected-level', link.dataset.level);
+  const levelDialog = document.getElementById('level-dialog');
+  const closeLevel = document.querySelector('[data-close-level]');
+  document.querySelectorAll('[data-level]').forEach(link => link.addEventListener('click', event => {
+    const card = link.closest('.level-card');
+    if (!card || typeof levelDialog?.showModal !== 'function') return;
+    event.preventDefault();
+    document.getElementById('dialog-level-name').textContent = card.querySelector('h3')?.textContent || '';
+    document.getElementById('dialog-level-focus').textContent = card.querySelector('.level-key')?.textContent || '';
+    document.getElementById('dialog-level-writing').textContent = card.querySelector('.level-content p:not(.level-key)')?.textContent || '';
+    document.getElementById('dialog-level-cta').href = whatsapp + encodeURIComponent('مرحبًا، أريد معرفة المزيد عن مستوى «' + link.dataset.level + '» في سلسلة التكلّم.');
+    levelDialog.showModal();
+    closeLevel?.focus();
   }));
+  closeLevel?.addEventListener('click', () => levelDialog?.close());
+  levelDialog?.addEventListener('click', event => {
+    if (event.target === levelDialog) levelDialog.close();
+  });
   const year = document.getElementById('year');
   if (year) year.textContent = new Date().getFullYear();
 })();
