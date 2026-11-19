@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0B6B64" />
+  <meta name="description" content="التكلّم – السلسلة الصوتية للأطفال من ٥ إلى ٧ سنوات. رحلة ممتعة من الاستماع إلى القراءة والكتابة عبر أربعة مستويات تعليمية." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="التكلّم | السلسلة الصوتية للأطفال" />
+  <meta property="og:description" content="من أول صوت… إلى كلمة يقرؤها طفلك ويكتبها" />
+  <meta property="og:image" content="assets/hero-world.webp" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/hero-world.webp" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+  <title>التكلّم — السلسلة الصوتية للأطفال | بروج للنشر والتوزيع</title>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">تخطَّ إلى المحتوى</a>
+  <header class="site-header" id="top">
+    <div class="header-inner shell">
+      <a class="brand" href="#top" aria-label="التكلّم — الصفحة الرئيسية">
+        <span class="brand-name">التكلّم<span class="brand-dot">✦</span></span>
+        <span class="brand-desc">السلسلة الصوتية للأطفال</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="فتح القائمة"><span></span><span></span><span></span></button>
+      <nav class="main-nav" id="site-navigation" aria-label="القائمة الرئيسية">
+        <a href="#top" class="is-active">الرئيسية</a>
+        <a href="#about">عن السلسلة</a>
+        <a href="#levels">مستويات التكلّم</a>
+        <a href="#resources">المواد المصاحبة</a>
+        <a href="#samples">نماذج الدروس</a>
+        <a href="#audiences">للمعلمين وأولياء الأمور</a>
+      </nav>
+      <a class="btn btn-gold header-cta" href="#contact">استفسر الآن <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main-content">
+    <!-- HERO: the supplied clean artwork, with real HTML copy and clickable levels -->
+    <section class="hero" aria-labelledby="hero-title">
+      <picture class="hero-art"><img src="assets/hero-world.webp" alt="لين وهارون يستكشفان عالمًا تعليميًا يجمع جزيرة الحروف ومزرعة الحركات وكوكب المدود وكنز القراءة" fetchpriority="high" width="1672" height="941" /></picture>
+      <div class="hero-softlight" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span aria-hidden="true">✦</span> عالم التكلّم التفاعلي <span aria-hidden="true">✦</span></div>
+        <h1 id="hero-title">من أول صوت… <span>إلى كلمة</span><br>يقرؤها طفلك ويكتبها</h1>
+        <p class="hero-lead">تبدأ رحلة الطفل مع العربية حين يسمع الصوت، ويتعرّف إلى حرفه، ويربط الكلمة بصورة ومعنى.</p>
+        <p class="hero-sub">تتدرّج السلسلة الصوتية للأطفال في تعليم القراءة والكتابة للناطقين بغير العربية من عمر ٥ إلى ٧ سنوات، عبر أربعة مستويات في ثمانية كتب أساسية، ترافقها قصص وأنشطة وصوتيات وأغانٍ ومواد مرئية.</p>
+        <div class="hero-actions"><a href="#samples" class="btn btn-teal">شاهد نماذج السلسلة <span aria-hidden="true">▶</span></a><a href="#contact" class="btn btn-gold">استفسر عن السلسلة <span aria-hidden="true">✉</span></a></div>
+      </div>
+      <a class="world-tag tag-island" href="#level-1"><span class="tag-label">جزيرة الحروف</span><span class="tag-count">١</span></a>
+      <a class="world-tag tag-farm" href="#level-2"><span class="tag-label">مزرعة الحركات<br>والسكون</span><span class="tag-count">٢</span></a>
+      <a class="world-tag tag-planet" href="#level-3"><span class="tag-label">كوكب المدود</span><span class="tag-count">٣</span></a>
+      <a class="world-tag tag-treasure" href="#level-4"><span class="tag-label">كنز القراءة</span><span class="tag-count">٤</span></a>
+      <div class="hero-bottom-wave" aria-hidden="true"></div>
+    </section>
+
+    <section class="section-intro" id="about" aria-labelledby="about-title">
+      <div class="shell">
+        <div class="section-header"><div class="section-pill"><span aria-hidden="true">📖</span> <h2 id="about-title">بداية تراعي تعلّم لغة جديدة</h2></div>
+          <p>قد يفهم الطفل الكلمة حين يسمعها ويرى صورتها، قبل أن يستطيع قراءتها أو كتابتها كاملة. لذلك تتدرّج المهمة معه: <strong>يستمع، ويلاحظ، ويردّد، ويميّز، ثم يقرأ ويكتب ما يناسب مرحلته.</strong></p>
+          <p class="muted">في درس الحرف، مثلًا، قد يتعرّف الطفل إلى كلمات عدة، بينما يقتصر المطلوب منه في الكتابة على تتبّع الحرف وكتابته منفردًا وفي أول الكلمة، وتتسع المهمة الكتابية خطوةً خطوة عبر المستويات.</p>
+        </div>
+        <div class="learning-path" role="list" aria-label="مراحل التعلم الخمس">
+          <div class="path-step" role="listitem"><span class="step-icon">🎧</span><strong>يستمع</strong><small>١</small></div>
+          <span class="path-arrow" aria-hidden="true">←</span>
+          <div class="path-step" role="listitem"><span class="step-icon">🔎</span><strong>يلاحظ</strong><small>٢</small></div>
+          <span class="path-arrow" aria-hidden="true">←</span>
+          <div class="path-step" role="listitem"><span class="step-icon">📣</span><strong>يردّد</strong><small>٣</small></div>
+          <span class="path-arrow" aria-hidden="true">←</span>
+          <div class="path-step" role="listitem"><span class="step-icon">✅</span><strong>يميّز</strong><small>٤</small></div>
+          <span class="path-arrow" aria-hidden="true">←</span>
+          <div class="path-step" role="listitem"><span class="step-icon">📝</span><strong>يقرأ ويكتب</strong><small>٥</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section outcomes-section" aria-labelledby="outcomes-title">
+      <div class="shell">
+        <div class="section-header"><div class="section-pill"><span aria-hidden="true">🎯</span><h2 id="outcomes-title">ماذا يتعلّم الطفل؟</h2></div></div>
+        <div class="outcomes-grid">
+          <article class="mini-card"><span class="illustration-icon">🧩</span><h3>تمييز الأصوات والحروف والربط بينهما.</h3></article>
+          <article class="mini-card"><span class="illustration-icon">🏞️</span><h3>فهم الكلمات من خلال الصور والمواقف.</h3></article>
+          <article class="mini-card"><span class="illustration-icon">🔤</span><h3>التمييز بين الحركات القصيرة والمدود، والاستماع إلى الفروق بينها ونطقها.</h3></article>
+          <article class="mini-card"><span class="illustration-icon">📖</span><h3>الانتقال في القراءة من الحروف والمقاطع إلى الكلمات والجمل البسيطة.</h3></article>
+          <article class="mini-card"><span class="illustration-icon">✏️</span><h3>التدرّج في كتابة الحروف، ثم الكلمات والجمل البسيطة.</h3></article>
+          <article class="mini-card"><span class="illustration-icon">🎮</span><h3>استخدام ما تعلّمه في القصص والأغاني والألعاب وأنشطة المراجعة.</h3></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section media-section" id="samples" aria-labelledby="samples-title">
+      <div class="shell">
+        <div class="section-header"><div class="section-pill"><span aria-hidden="true">▶️</span><h2 id="samples-title">شاهد السلسلة من داخل الدرس</h2></div><p>تتيح لك النماذج أن ترى ما يسمعه الطفل ويشاهده، وما يُطلب منه أن يؤديه في كل نشاط.</p></div>
+        <div class="media-grid">
+          <article class="media-card"><div class="media-illustration"><img src="assets/media-5.webp" alt="رسم توضيحي للدرس الحركي" loading="lazy"></div><h3>درس بالرسوم الحركية</h3><p>شاهد نموذجًا يجمع الصورة والصوت والحركة في تقديم عناصر الدرس.</p><button class="btn btn-sample" type="button" disabled title="يُفعّل عند إضافة نموذج معتمد">شاهد نموذج الدرس <span>قريبًا</span></button></article>
+          <article class="media-card"><div class="media-illustration"><img src="assets/media-4.webp" alt="رسم لكتاب قصص مصور" loading="lazy"></div><h3>قصة مصوّرة أو متحركة</h3><p>تعرّف إلى طريقة حضور الكلمات والمواقف في قصة تناسب الطفل.</p><button class="btn btn-sample" type="button" disabled title="يُفعّل عند إضافة نموذج معتمد">شاهد نموذج القصة <span>قريبًا</span></button></article>
+          <article class="media-card"><div class="media-illustration"><img src="assets/media-3.webp" alt="سماعة ترمز إلى المحتوى الصوتي" loading="lazy"></div><h3>مقتطف صوتي</h3><p>استمع إلى نموذج من المحتوى المسموع وطريقة تقديمه للطفل.</p><button class="btn btn-sample" type="button" disabled title="يُفعّل عند إضافة نموذج معتمد">استمع إلى النموذج <span>قريبًا</span></button></article>
+          <article class="media-card"><div class="media-illustration"><img src="assets/media-2.webp" alt="نموذج توضيحي لصفحات من كتاب تعليمي" loading="lazy"></div><h3>صفحات من كتاب الطالب والتدريبات</h3><p>شاهد تقديم الحرف والكلمات المصوّرة، ثم أنشطة التمييز والتتبّع والكتابة والمراجعة.</p><div class="button-stack"><button class="btn btn-sample" disabled>حمّل نموذج كتاب الطالب — ٤ صفحات</button><button class="btn btn-sample" disabled>حمّل نموذج كتاب التدريبات — ٤ صفحات</button></div></article>
+          <article class="media-card"><div class="media-illustration"><img src="assets/media-1.webp" alt="رسوم توضيحية لمواد تعليمية رقمية" loading="lazy"></div><h3>نماذج من المواد المصاحبة</h3><p>مواد تتيح للطفل أن يتعلّم ويُراجع بطرق متنوعة.</p><div class="button-stack"><button class="btn btn-sample" disabled>تصفّح نموذج القصة</button><button class="btn btn-sample" disabled>تصفّح نموذج التلوين</button><button class="btn btn-sample" disabled>شاهد نموذج النشاط والمراجعة</button><button class="btn btn-sample" disabled>تصفّح نموذج دليل المعلم</button></div></article>
+        </div>
+        <p class="availability-note">* ستُفعَّل أزرار المعاينة والتحميل عند إضافة الروابط والملفات المعتمدة؛ ولا تُعرض نماذج غير متاحة على أنها جاهزة.</p>
+      </div>
+    </section>
+
+    <section class="content-section lesson-section" aria-labelledby="lesson-title">
+      <div class="shell">
+        <div class="section-header"><div class="section-pill"><span aria-hidden="true">✏️</span><h2 id="lesson-title">كيف يجري الدرس؟</h2></div><p>مثال تطبيقي على درس من السلسلة: حرف «الباء».</p></div>
+        <div class="lesson-steps" role="list">
+          <article class="lesson-card" role="listitem"><span class="lesson-num">١</span><div class="lesson-picture">🎧</div><h3>يستمع</h3><p>يسمع الطفل صوت الحرف والكلمات.</p></article>
+          <article class="lesson-card" role="listitem"><span class="lesson-num">٢</span><div class="lesson-picture">🐤</div><h3>يرى الصور</h3><p>يتعرّف إلى الصور.</p></article>
+          <article class="lesson-card" role="listitem"><span class="lesson-num">٣</span><div class="lesson-picture">🗣️</div><h3>يردّد</h3><p>يردّد الصوت والكلمات.</p></article>
+          <article class="lesson-card" role="listitem"><span class="lesson-num">٤</span><div class="lesson-picture letter">ب</div><h3>يميّز</h3><p>يختار ما يطابق ما سمعه.</p></article>
+          <article class="lesson-card" role="listitem"><span class="lesson-num">٥</span><div class="lesson-picture letter dotted">ب</div><h3>يتتبّع</h3><p>يتتبّع الحرف ويكتبه.</p></article>
+          <article class="lesson-card" role="listitem"><span class="lesson-num">٦</span><div class="lesson-picture">📝</div><h3>يراجع</h3><p>يراجع المهارة من خلال نشاط.</p></article>
+        </div>
+        <p class="lesson-footnote">تخدم الأنشطة المختلفة هدفًا تعليميًا واحدًا، مع وضوح ما يُنتظر من الطفل في كل خطوة.</p>
+      </div>
+    </section>
+
+    <section class="content-section levels-section" id="levels" aria-labelledby="levels-title">
+      <div class="shell">
+        <div class="section-header"><div class="section-pill"><span aria-hidden="true">📚</span><h2 id="levels-title">أربعة مستويات وتدرّج واضح</h2></div><p>رحلة متدرجة تبدأ بصوت الحرف، وتنتهي بالقراءة والكتابة المناسبة لمرحلة الطفل.</p></div>
+        <div class="levels-grid">
+          <article class="level-card" id="level-1"><div class="level-image"><img src="assets/island.webp" alt="جزيرة الحروف؛ جزيرة ساحرة تحيط بها المياه والنخيل والحروف العربية" loading="lazy" width="720" height="435"><span class="level-number">١</span></div><div class="level-content"><h3>جزيرة الحروف</h3><p class="level-key">التعرّف إلى أصوات الحروف وربطها بالصور والكلمات.</p><p>تتبّع الحرف وكتابته منفردًا وفي أول الكلمة.</p><a href="#contact" class="btn btn-gold btn-level" data-level="جزيرة الحروف">استكشف المستوى <span aria-hidden="true">←</span></a></div></article>
+          <article class="level-card" id="level-2"><div class="level-image"><img src="assets/farm.webp" alt="مزرعة الحركات والسكون؛ حظيرة حمراء وحيوانات ومزرعة خضراء" loading="lazy" width="720" height="461"><span class="level-number">٢</span></div><div class="level-content"><h3>مزرعة الحركات والسكون</h3><p class="level-key">التدرّب على الحركات الثلاث والسكون وتمييز أصواتها.</p><p>تعزيز كتابة الحرف أول الكلمة مع الحركات، ثم بدء كتابته وسط الكلمة في وحدات السكون.</p><a href="#contact" class="btn btn-gold btn-level" data-level="مزرعة الحركات والسكون">استكشف المستوى <span aria-hidden="true">←</span></a></div></article>
+          <article class="level-card" id="level-3"><div class="level-image"><img src="assets/planet.webp" alt="كوكب المدود؛ محطة فضائية وتلسكوب وكواكب ملونة" loading="lazy" width="720" height="457"><span class="level-number">٣</span></div><div class="level-content"><h3>كوكب المدود</h3><p class="level-key">التمييز بين الصوت القصير والطويل، والتدرّب على المدود بالألف والواو والياء.</p><p>تتبّع الحروف وكتابتها في أوضاعها كلها، مع إضافة الكتابة في آخر الكلمة.</p><a href="#contact" class="btn btn-gold btn-level" data-level="كوكب المدود">استكشف المستوى <span aria-hidden="true">←</span></a></div></article>
+          <article class="level-card" id="level-4"><div class="level-image"><img src="assets/treasure.webp" alt="كنز القراءة؛ كهف دافئ يحوي كتابًا مفتوحًا ومكتبة وفانوسًا" loading="lazy" width="720" height="456"><span class="level-number">٤</span></div><div class="level-content"><h3>كنز القراءة</h3><p class="level-key">تعلّم الظواهر الصوتية وتوظيف المكتسبات في قراءة الكلمات والجمل وفهمها.</p><p>البدء بكلمات بسيطة، ثم التدرّج حتى كتابة جمل بسيطة في نهاية المستوى.</p><a href="#contact" class="btn btn-gold btn-level" data-level="كنز القراءة">استكشف المستوى <span aria-hidden="true">←</span></a></div></article>
+        </div>
+        <div class="section-bottom"><p>يساعد المعلم في اختيار نقطة البداية وفق مهارات الطفل الحالية، وما تتطلبه أنشطة كل مستوى.</p><a href="#contact" class="btn btn-teal">استفسر عن المستوى المناسب</a></div>
+      </div>
+    </section>
+
+    <section class="content-section resources-section" id="resources" aria-labelledby="resources-title">
+      <div class="shell"><div class="section-header"><div class="section-pill"><span aria-hidden="true">🧩</span><h2 id="resources-title">لكل مكوّن دور في رحلة الطفل</h2></div></div>
+        <div class="resources-grid">
+          <article class="resource-card"><span class="resource-icon">📘</span><h3>كتاب الطالب</h3><p>يقدّم الحروف والأصوات والكلمات والأنشطة الأساسية في مسار منظم.</p></article>
+          <article class="resource-card"><span class="resource-icon">📋</span><h3>كتاب التدريبات</h3><p>يمنح الطفل فرصًا إضافية للتمييز والتتبّع والكتابة والمراجعة.</p></article>
+          <article class="resource-card"><span class="resource-icon">📚</span><h3>القصص المصاحبة</h3><p>تعيد الكلمات والمهارات في حكايات مصوّرة ذات معنى.</p></article>
+          <article class="resource-card"><span class="resource-icon">🎨</span><h3>كتاب التلوين</h3><p>يربط الصور والكلمات بنشاط يدوي يتيح الحديث والمراجعة.</p></article>
+          <article class="resource-card"><span class="resource-icon">🎧</span><h3>الصوتيات والأغاني</h3><p>تقدّم نموذجًا واضحًا للاستماع والترديد، وتعيد الأصوات والكلمات بإيقاع يناسب الطفل.</p></article>
+          <article class="resource-card"><span class="resource-icon">🎬</span><h3>الرسوم الحركية</h3><p>تجمع الصورة والصوت والحركة لخدمة هدف الدرس.</p></article>
+          <article class="resource-card"><span class="resource-icon">🎲</span><h3>الألعاب والأنشطة</h3><p>تدعو الطفل إلى المطابقة والاختيار والتمييز والمشاركة.</p></article>
+          <article class="resource-card"><span class="resource-icon">👩🏻‍🏫</span><h3>دليل المعلم</h3><p>يوضح أهداف الدروس وخطوات تقديم الأنشطة ومساندة الطفل.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section progress-section" aria-labelledby="progress-title">
+      <div class="shell progress-layout"><div class="progress-copy"><div class="section-pill align-start"><span aria-hidden="true">📈</span><h2 id="progress-title">كيف تلاحظ تقدّم طفلك؟</h2></div><p>تتيح أنشطة الدروس والمراجعة للمعلم أن يلاحظ ما يستطيع الطفل أداءه، وما يحتاج فيه إلى تدريب إضافي: هل يميّز الصوت؟ هل يختار الصورة المناسبة؟ هل يقرأ ما تعلّمه؟ وهل يكتب المقدار المطلوب منه في مرحلته؟</p><p>تساعد مشاركة هذه الملاحظات مع ولي الأمر على اختيار ممارسة منزلية قصيرة ومناسبة، مثل الاستماع والترديد، أو مراجعة الصور، أو قراءة قصة مع الطفل.</p><button type="button" class="btn btn-sample" disabled>شاهد نموذجًا من أنشطة المراجعة — قريبًا</button></div>
+        <div class="progress-board" aria-label="المهارات الأربع لمتابعة التقدم"><div class="board-top"><span>رحلة التقدّم</span><span>✦ ✦ ✦</span></div><div class="progress-checks"><div><span>🎧</span> التمييز السمعي <b>✓</b></div><div><span>🖼️</span> اختيار الصورة <b>✓</b></div><div><span>📖</span> القراءة <b>✓</b></div><div><span>✏️</span> الكتابة <b>✓</b></div></div><div class="board-sticker" aria-hidden="true">⭐</div></div></div>
+    </section>
+
+    <section class="content-section audiences-section" id="audiences" aria-labelledby="audiences-title"><div class="shell"><div class="section-header"><div class="section-pill"><span aria-hidden="true">🤝</span><h2 id="audiences-title">في الصف والبيت</h2></div></div>
+      <div class="audiences-grid"><article class="audience-card"><span class="audience-icon">👨‍👩‍👧</span><h3>لولي الأمر</h3><p>استمع مع طفلك، وردّدا الكلمات، وتحدّثا عن الصور، وشاركه قصة أو نشاط تلوين. دقائق منتظمة من الممارسة المرتبطة بدرسه تساعده على استرجاع ما تعلّمه.</p><a href="#contact" data-role="ولي أمر" class="text-link">استفسر عن السلسلة <span aria-hidden="true">←</span></a></article><article class="audience-card"><span class="audience-icon">👨🏻‍🏫</span><h3>للمعلم</h3><p>ابدأ بهدف الدرس في كتاب الطالب، ثم اختر من التدريبات والصوتيات والقصة والفيديو ما يخدم هذا الهدف. وراعِ ما يستطيع الطفل قراءته أو كتابته في مستواه.</p><a href="#contact" data-role="معلم" class="text-link">اطلب معلومات للمعلم <span aria-hidden="true">←</span></a></article><article class="audience-card"><span class="audience-icon">🏫</span><h3>للمدارس والمؤسسات</h3><p>اطّلعوا على أهداف المستويات ونماذج الكتب والمواد المصاحبة، ثم استفسروا عن المكوّنات المتاحة وما يناسب برنامجكم.</p><a href="#contact" data-role="مؤسسة" class="text-link">اسأل عن التوريد <span aria-hidden="true">←</span></a></article></div>
+    </div></section>
+
+    <section class="content-section purchase-section" aria-labelledby="purchase-title"><div class="shell"><div class="purchase-banner"><div class="purchase-art" aria-hidden="true">📚 <span>✨</span></div><div><h2 id="purchase-title">اقتناء السلسلة</h2><p>تتكون السلسلة من أربعة مستويات، يضم كل مستوى كتابًا للطالب وكتابًا للتدريبات. ويمكنك التواصل لمعرفة المستويات المتاحة حاليًا، والمواد المصاحبة لكل حزمة، وطريقة الوصول إلى الصوتيات والمرئيات، والأسعار وخيارات التوريد.</p></div><a href="#contact" class="btn btn-gold">استفسر عن السلسلة الصوتية <span aria-hidden="true">↗</span></a></div></div></section>
+
+    <section class="content-section faq-section" id="faq" aria-labelledby="faq-title"><div class="shell"><div class="section-header"><div class="section-pill"><span aria-hidden="true">❔</span><h2 id="faq-title">أسئلتك قبل البداية</h2></div></div>
+      <div class="faq-list">
+        <details><summary>طفلي يعرف أسماء بعض الحروف؛ ماذا تضيف له السلسلة؟</summary><p>تساعده على ربط الحرف بصوته والكلمات التي يسمعها، ثم التدرّج في الحركات والمدود والقراءة والكتابة وفق مهاراته.</p></details>
+        <details><summary>طفلي يفهم الكلمة لكنه لا يستطيع كتابتها كاملة؛ هل تناسبه السلسلة؟</summary><p>نعم. لا تفترض السلسلة أن فهم الكلمة يعني القدرة على كتابتها. يبدأ المطلوب الكتابي بالحرف، ويتسع تدريجيًا حتى الكلمات والجمل البسيطة.</p></details>
+        <details><summary>لماذا يوجد كتاب للطالب وآخر للتدريبات؟</summary><p>يقدّم كتاب الطالب المحتوى والأنشطة الأساسية، ويمنح كتاب التدريبات الطفل فرصًا أخرى لتثبيت المهارة ومراجعتها.</p></details>
+        <details><summary>هل ترتبط القصص والتلوين بالدروس؟</summary><p>تعود القصص والأنشطة إلى كلمات المستوى ومهاراته، وتتيح للطفل أن يلتقي بها في سياقات وصور جديدة.</p></details>
+        <details><summary>كيف تُستخدم الفيديوهات؟</summary><p>تُستخدم لتقديم عنصر أو دعمه بالصورة والصوت والحركة، ثم يعود الطفل إلى المشاركة والترديد والقراءة والكتابة بحسب هدف الدرس.</p></details>
+        <details><summary>كيف أختار المستوى المناسب؟</summary><p>انظر، بمساعدة المعلم، إلى قدرة الطفل على السماع والتمييز والقراءة والكتابة، ثم قارنها بأهداف المستويات.</p></details>
+        <details><summary>هل توجد أدلة للمعلمين؟</summary><p>تتضمن خطة السلسلة دليلًا لكل مستوى يوضح الأهداف وخطوات تقديم الأنشطة، وتُؤكَّد الأدلة المتاحة حاليًا قبل النشر.</p></details>
+      </div></div>
+    </section>
+
+    <section class="final-cta" id="contact" aria-labelledby="contact-title"><div class="shell contact-layout"><div class="cta-decoration" aria-hidden="true"><div class="cta-round">📖</div><div class="cta-stars">✦ ⋆ ✦</div></div><div class="cta-content"><h2 id="contact-title">شاهد النماذج… <span>ثم اختر خطوتك التالية</span></h2><p>تصفّح صفحات الكتب، واستمع إلى المحتوى، وشاهد طريقة تقديم الدرس. وإذا رغبت في معرفة المستوى أو الحزمة المناسبة، أخبرنا هل تسأل لطفلك، أم لصفّك، أم لمؤسستك.</p><div class="role-buttons"><a class="btn btn-cream" data-whatsapp="أريد الاستفسار عن سلسلة التكلّم لطفلي" href="https://wa.me/201023201001" target="_blank" rel="noopener noreferrer">👪 أنا ولي أمر — أريد السلسلة لطفلي</a><a class="btn btn-cream" data-whatsapp="أريد الاستفسار عن سلسلة التكلّم لصفّي" href="https://wa.me/201023201001" target="_blank" rel="noopener noreferrer">👨🏻‍🏫 أنا معلم — أريد السلسلة لصفّي</a><a class="btn btn-cream" data-whatsapp="أريد معلومات اقتناء سلسلة التكلّم لمؤسستنا" href="https://wa.me/201023201001" target="_blank" rel="noopener noreferrer">🏫 أمثّل مؤسسة — أريد معلومات الاقتناء</a></div></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-grid"><div><a class="brand footer-brand" href="#top"><span class="brand-name">التكلّم<span class="brand-dot">✦</span></span><span class="brand-desc">السلسلة الصوتية للأطفال</span></a><p>رحلة تبدأ بالصوت، وتتقدّم بالفهم والممارسة.</p><strong>بروج للنشر والتوزيع</strong></div><div><h2>تصفّح</h2><a href="#about">عن السلسلة</a><a href="#levels">المستويات الأربعة</a><a href="#samples">نماذج السلسلة</a><a href="#faq">الأسئلة الشائعة</a></div><div><h2>تواصل معنا</h2><a href="mailto:info@attakallum.com">✉ info@attakallum.com</a><a href="tel:+201023201001" dir="ltr">☎ +20 102 320 1001</a><a href="https://attakallum.com/" target="_blank" rel="noopener noreferrer">🌐 attakallum.com</a><a href="https://wa.me/201023201001" target="_blank" rel="noopener noreferrer">💬 واتساب</a></div></div><div class="shell footer-end"><span>© <span id="year">2026</span> التكلّم — بروج للنشر والتوزيع</span><a href="#top">العودة للأعلى ↑</a></div></footer>
+</body>
+</html>
