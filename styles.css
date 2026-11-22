@@ -10,9 +10,3 @@
 
 /* Level-details dialog */
 .level-dialog{border:1px solid #dbb66a;border-radius:26px;padding:0;max-width:min(92vw,520px);width:100%;background:var(--paper);box-shadow:0 20px 60px #0004;color:var(--ink)}.level-dialog::backdrop{background:#053d3cb5;backdrop-filter:blur(4px)}.dialog-inner{padding:29px 30px;text-align:center}.dialog-inner h2{color:var(--teal);font-weight:900;margin:0 0 13px}.dialog-inner p{font-weight:650;line-height:1.8;margin:0 0 14px}.dialog-inner strong{display:block;color:#7a5a23;margin:15px 0 5px}.dialog-close{position:absolute;left:11px;top:9px;border:0;background:#f1e3cd;border-radius:50%;width:35px;height:35px;font-size:1.25rem;font-weight:900;color:var(--teal)}.dialog-inner .btn{margin-top:13px}
-
-/* Approved series overview: full copy sits below the illustrated hero so the artwork stays unobstructed. */
-.series-overview{padding:30px 0 15px;background:var(--paper);text-align:center}
-.series-overview .shell{max-width:970px}
-.series-overview p{font-size:1.03rem;line-height:2;font-weight:700;margin:0 auto 12px;color:var(--ink)}
-@media(max-width:700px){.series-overview{padding:21px 0 8px}.series-overview p{font-size:.9rem;line-height:1.9}}
